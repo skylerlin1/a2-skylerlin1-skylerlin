@@ -39,8 +39,11 @@ VegaLite offered a strong balance between control and simplicity. Like Altair, i
 
 
 ## Technical Achievements
-- **Proved P=NP**: Using a combination of...
-- **Solved AI Forever**: ...
+To go beyond the basic requirements of the assignment, I focused on implementing more structural decisions across the languages. In D3, I manually created both a species color legend and a bill length size legend positioned outside of the plotting area. This required defining explicit scales and constructing custom SVG elements. I also customized axis domains and tick values so that the scales did not start at zero, which more accurately reflected the data and better matched the reference visualization.
+
+In Altair and VegaLite, I explored declarative approaches to visualization by explicitly coding in position, color, size, and opacity through the specification. I adjusted the size scale so that bill length mapped to point size making sure that larger bill lengths produced larger points. I also controlled chart dimensions, axis ticks, and data loading methods to make the visualizations reproducible and consistent. These technical choices demonstrate an understanding of how different visualization systems.
 
 ### Design Achievements
-- **Re-vamped Apple's Design Philosophy**: As demonstrated in my colorscheme...
+From a design perspective, I readability across all five visualizations. I used different color mapping for penguin species so that the species appeared in different colors across different tools, making comparisons easier when viewing multiple charts. Point sizes were tuned to reflect bill length without overpowering the plot, and semi-transparent points were used to reduce visual clutter and help overlapping points remain visible.
+
+I also paid attention to layout and hierarchy. Legends were placed outside the plotting area to avoid covering data points, axes were clearly labeled with units, and chart dimensions were increased to improve overall readability. Where possible, I relied on clean, minimal design choices to keep the focus on the data rather than decoration. 
