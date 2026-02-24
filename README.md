@@ -27,7 +27,7 @@ Using ggPlot 2 in R was really straightforward as it was very structuredand cons
 
 ## PowerBI 
 
-![](img/penguins_Powerbi.png)
+![](img/penguins_powerbi.png)
 
 Power BI required little to no code, which made it quick to create a basic version of the visualization. Drag and drop encodings made it easy to assign axes, color, and size. However, achieving precise control over axis ticks and size scaling was more difficult compared to code based tools. Power BI feels best suited for business dashboards where interactivity and integration with data sources matter more than low-level customization.
 
